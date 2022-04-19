@@ -1,0 +1,454 @@
+@import "colors";
+
+.hosting {
+	color: $primary-color;
+
+	font-size: 15px;
+
+	padding: 35px 30px;
+	&__title-1 {
+		text-align: center;
+
+		font-size: 28px;
+
+		margin-bottom: 60px;
+	}
+	&__title-2 {
+		display: flex;
+		justify-content: center;
+
+		background-color: $button-color;
+		color: $white;
+
+		font-size: 14px;
+		font-weight: 700;
+		letter-spacing: 2px;
+
+		padding: 10px 15px;
+	}
+	&__text-last {
+		display: flex;
+		justify-content: center;
+
+		color: $primary-color;
+
+		margin-top: 30px;
+	}
+}
+
+.hosting-plan-1 {
+	&__text-top-1 {
+		display: flex;
+		justify-content: center;
+
+		font-size: 16px;
+
+		margin: 0 auto;
+	}
+
+	&__text-top-2 {
+		display: flex;
+		justify-content: center;
+		text-align: center;
+
+		margin: 10px 20px 0 20px;
+
+		font-size: 14px;
+	}
+	&__price {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		margin-top: 20px;
+	}
+	&__price-text {
+		margin: 0 5px;
+
+		color: $third-color;
+
+		text-decoration: line-through;
+	}
+
+	&__button-1 {
+		text-align: center;
+
+		background-color: $secound-button-color;
+		color: $white;
+
+		border-radius: 100px;
+		border: none;
+
+		padding: 9px 10px 8px 10px;
+
+		font-size: 16px;
+	}
+	&__price-primary {
+		display: flex;
+		justify-content: center;
+		align-items: flex-end;
+
+		color: $primary-color;
+
+		margin-bottom: 40px;
+	}
+	&__price-primary-1 {
+		font-size: 44.8px;
+		font-weight: 700;
+	}
+	&__price-primary-2 {
+		font-size: 24px;
+		font-weight: 700;
+	}
+	&__price-primary-3 {
+		font-size: 16px;
+		font-weight: 800;
+	}
+	&__button-2-location {
+		display: flex;
+		justify-content: center;
+	}
+	&__button-2 {
+		text-align: center;
+
+		background-color: $secound-color;
+		color: $white;
+
+		border-radius: 100px;
+		border: none;
+
+		padding: 10px 50px;
+
+		font-size: 18px;
+		font-weight: 700;
+	}
+	&__price-reneval {
+		display: flex;
+		justify-content: center;
+
+		color: $third-color;
+
+		margin: 20px 0;
+	}
+	&__advantages {
+		display: flex;
+		flex-direction: column;
+
+		font-size: 16px;
+	}
+	&__advantages-all {
+		display: flex;
+		align-items: center;
+		gap: 5px;
+
+		padding-bottom: 20px;
+	}
+	&__help-outline {
+		height: 15px;
+		width: auto;
+	}
+	&__see-all-adventages {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		color: $secound-color;
+
+		font-size: 17px;
+		font-weight: 700;
+	}
+	&__line {
+		margin: 40px 0 15px;
+	}
+
+	&__column-1 {
+		box-shadow: 0 0 16px #00001a (0 0 0 / 10%);
+		border-radius: 6px;
+		padding: 35px 32px 40px 31px;
+	}
+
+	&__table {
+		// background-color: rgb(147, 147, 197);
+		border-color: rgb(39, 33, 33);
+		border-style: solid;
+		border-radius: 6px;
+		margin-bottom: 45px;
+	}
+}
+.hosting-plan-2 {
+	&__text-top-1 {
+		display: flex;
+		justify-content: center;
+
+		font-size: 16px;
+
+		margin: 0 auto;
+	}
+
+	&__text-top-2 {
+		display: flex;
+		justify-content: center;
+		text-align: center;
+
+		margin: 10px 20px 0 20px;
+
+		font-size: 14px;
+	}
+	&__price {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		margin-top: 20px;
+	}
+	&__price-text {
+		margin: 0 5px;
+
+		color: $third-color;
+
+		text-decoration: line-through;
+	}
+
+	&__button-1 {
+		text-align: center;
+
+		background-color: $button-color;
+		color: $white;
+
+		border-radius: 100px;
+		border: none;
+
+		padding: 9px 10px 8px 10px;
+
+		font-size: 16px;
+	}
+	&__price-primary {
+		display: flex;
+		justify-content: center;
+		align-items: flex-end;
+
+		color: $primary-color;
+
+		margin-bottom: 40px;
+	}
+	&__price-primary-1 {
+		font-size: 44.8px;
+		font-weight: 700;
+	}
+	&__price-primary-2 {
+		font-size: 24px;
+		font-weight: 700;
+	}
+	&__price-primary-3 {
+		font-size: 16px;
+		font-weight: 800;
+	}
+	&__button-2-location {
+		display: flex;
+		justify-content: center;
+	}
+	&__button-2 {
+		text-align: center;
+
+		background-color: $button-color;
+		color: $white;
+
+		border-radius: 100px;
+		border: none;
+
+		padding: 10px 50px;
+
+		font-size: 18px;
+		font-weight: 700;
+	}
+	&__price-reneval {
+		display: flex;
+		justify-content: center;
+
+		color: $third-color;
+
+		margin: 20px 0;
+	}
+	&__advantages {
+		display: flex;
+		flex-direction: column;
+
+		font-size: 16px;
+	}
+	&__advantages-all {
+		display: flex;
+		align-items: center;
+		gap: 5px;
+
+		padding-bottom: 20px;
+	}
+	&__help-outline {
+		height: 15px;
+		width: auto;
+	}
+	&__see-all-adventages {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		color: $button-color;
+
+		font-size: 17px;
+		font-weight: 700;
+	}
+	&__line {
+		margin: 40px 0 15px;
+	}
+
+	&__column-1 {
+		box-shadow: 0 0 16px #00001a (0 0 0 / 10%);
+		border-radius: 6px;
+		padding: 35px 32px 40px 31px;
+	}
+
+	&__table {
+		// background-color: rgb(147, 147, 197);
+		border-color: rgb(39, 33, 33);
+		border-style: solid;
+		border-radius: 6px;
+	}
+}
+.hosting-plan-3 {
+	&__text-top-1 {
+		display: flex;
+		justify-content: center;
+
+		font-size: 16px;
+
+		margin: 0 auto;
+	}
+
+	&__text-top-2 {
+		display: flex;
+		justify-content: center;
+		text-align: center;
+
+		margin: 10px 20px 0 20px;
+
+		font-size: 14px;
+	}
+	&__price {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		margin-top: 20px;
+	}
+	&__price-text {
+		margin: 0 5px;
+
+		color: $third-color;
+
+		text-decoration: line-through;
+	}
+
+	&__button-1 {
+		text-align: center;
+
+		background-color: $secound-button-color;
+		color: $white;
+
+		border-radius: 100px;
+		border: none;
+
+		padding: 9px 10px 8px 10px;
+
+		font-size: 16px;
+	}
+	&__price-primary {
+		display: flex;
+		justify-content: center;
+		align-items: flex-end;
+
+		color: $primary-color;
+
+		margin-bottom: 40px;
+	}
+	&__price-primary-1 {
+		font-size: 44.8px;
+		font-weight: 700;
+	}
+	&__price-primary-2 {
+		font-size: 24px;
+		font-weight: 700;
+	}
+	&__price-primary-3 {
+		font-size: 16px;
+		font-weight: 800;
+	}
+	&__button-2-location {
+		display: flex;
+		justify-content: center;
+	}
+	&__button-2 {
+		text-align: center;
+
+		background-color: $secound-color;
+		color: $white;
+
+		border-radius: 100px;
+		border: none;
+
+		padding: 10px 50px;
+
+		font-size: 18px;
+		font-weight: 700;
+	}
+	&__price-reneval {
+		display: flex;
+		justify-content: center;
+
+		color: $third-color;
+
+		margin: 20px 0;
+	}
+	&__advantages {
+		display: flex;
+		flex-direction: column;
+
+		font-size: 16px;
+	}
+	&__advantages-all {
+		display: flex;
+		align-items: center;
+		gap: 5px;
+
+		padding-bottom: 20px;
+	}
+	&__help-outline {
+		height: 15px;
+		width: auto;
+	}
+	&__see-all-adventages {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		color: $secound-color;
+
+		font-size: 17px;
+		font-weight: 700;
+	}
+	&__line {
+		margin: 40px 0 15px;
+	}
+
+	&__column-1 {
+		box-shadow: 0 0 16px #00001a (0 0 0 / 10%);
+		border-radius: 6px;
+		padding: 35px 32px 40px 31px;
+	}
+
+	&__table {
+		// background-color: rgb(147, 147, 197);
+		border-color: rgb(39, 33, 33);
+		border-style: solid;
+		border-radius: 6px;
+		margin-top: 45px;
+	}
+}
