@@ -1,92 +1,90 @@
 @import "colors";
 
 .header {
-    background-color: $secound-color;
+	background-color: $secondary-color;
 
-    &__nav {
-        display: flex;
-        justify-content: space-between;
-        padding: 20px 15px;
-        margin-bottom: 5px;
-    }
+	&__nav {
+		display: flex;
+		justify-content: space-between;
+		padding: 20px 15px;
+		margin-bottom: 5px;
+	}
 
-    &__logo {
-        height: 20px;
-        width: 100px;
-    }
+	&__logo {
+		height: 20px;
+		width: 100px;
+	}
 
-    &__polish-flag {
-        height: 19px;
-        width: 30px;
-    }
+	&__polish-flag {
+		height: 19px;
+		width: 30px;
+	}
 
-    &__polish-text {
-        font-weight: 400;
-        text-decoration: none;
-        color: $white;
-        font-weight: 600;
-        line-height: 1.4;
-    }
+	&__polish-text {
+		font-weight: 400;
+		text-decoration: none;
+		color: $white;
+		font-weight: 600;
+		line-height: 1.4;
+	}
 
-    &__nav-left {
-        display: flex;
-        align-items: center;
-        gap: 5px;
+	&__nav-left {
+		display: flex;
+		align-items: center;
+		gap: 5px;
+	}
 
-    }
+	&__background-img {
+		width: 100%;
+		height: auto;
+	}
 
-    &__background-img {
-        width: 100%;
-        height: auto;
+	&__bottom-place {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		justify-content: center;
+		padding-bottom: 40px;
+	}
 
-    }
+	&__heading {
+		font-size: 30px;
+		margin-bottom: 20px;
+	}
 
-    &__bottom-place {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        justify-content: center;
-    }
+	&__text {
+		font-size: 14px;
+		padding: 0 15px;
+		margin-bottom: 26px;
+	}
 
-    &__heading {
-        font-size: 30px;
-        margin-bottom: 20px;
-    }
+	&__button {
+		text-align: center;
 
-    &__text {
-        font-size: 14px;
-        padding: 0 15px;
-        margin-bottom: 26px;
-    }
+		background-color: $button-color;
+		color: $white;
+		width: 255px;
+		border-radius: 100px;
+		padding: 15px 15px;
+		font-size: 16px;
+		border: none;
+	}
 
-    &__button {
+	&__button-location {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
 
-        text-align: center;
-
-        background-color: $button-color;
-        color: $white;
-        // height: 30px;
-        width: 255px;
-        border-radius: 100px;
-        padding: 15px 15px;
-        font-size: 16px;
-        border: none;
-    }
-
-    &__button-location {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    &__text-under-button {
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-        margin-top: 20px;
-        margin-bottom: 40px;
-    }
-
-
-
+	&__text-advantages {
+		display: flex;
+		gap: 20px;
+		margin-top: 20px;
+		margin-bottom: 10px;
+	}
+	&__text-advantages-item {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
 }
