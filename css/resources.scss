@@ -1,0 +1,36 @@
+@import "colors";
+
+.resources {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+
+	color: $primary-color;
+
+	padding: 0 15px;
+	margin: 70px 0px;
+	&__title {
+		margin: 0px 15px 25px;
+
+		font-size: 28px;
+	}
+	&__text-bold {
+		font-size: 20px;
+
+		margin-bottom: 10px;
+	}
+	&__text {
+		list-style-type: none;
+
+		font-size: 14px;
+
+		margin-bottom: 30px;
+	}
+	&__text-list {
+		display: flex;
+		flex-direction: column;
+		text-align: left;
+
+		padding: 15px 0 15px 30px;
+	}
+}
