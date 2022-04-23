@@ -1,0 +1,40 @@
+@import "colors";
+
+.advantages {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+
+	background-color: $secondary-color;
+
+	padding: 70px 15px 35px;
+
+	&__text-bold {
+		font-size: 20px;
+
+		padding: 0 15px;
+	}
+	&__text {
+		font-size: 15px;
+
+		margin-bottom: 30px;
+		margin-top: 20px;
+		padding: 0 15px;
+
+		list-style-type: none;
+	}
+	&__img {
+		width: 100%;
+		height: auto;
+
+		padding: 35px 0;
+	}
+	&__link {
+		font-size: 14px;
+
+		color: $white;
+
+		padding-bottom: 30px;
+		// Nie wiem czemu tu nie dziala padding
+	}
+}
