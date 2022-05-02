@@ -1,9 +1,23 @@
 @import "colors";
 
-.comparison-of-plans {
-	color: $primary-color;
+.table {
+	&__item {
+		display: flex;
+		align-items: center;
 
-	&__functions-item {
+		font-size: 14px;
+
+		height: 60px;
+	}
+	&__svg {
+		height: 24px;
+		width: auto;
+	}
+}
+.functions {
+	padding: 0 15px;
+
+	&__item {
 		display: flex;
 		align-items: center;
 
@@ -12,12 +26,24 @@
 
 		height: 60px;
 	}
-	&__functions-discription {
+	&__description {
 		margin-left: 5px;
 
 		height: 20px;
 		width: auto;
 	}
+	&__title {
+		font-size: 18px;
+		font-weight: 800;
+
+		margin: auto 0 auto 0;
+
+		list-style-type: none;
+	}
+}
+.comparison-of-plans {
+	color: $primary-color;
+
 	&__item {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
@@ -28,9 +54,7 @@
 
 		border: 1px solid $third-color;
 	}
-	&__functions {
-		padding: 0 15px;
-	}
+
 	&__type-item {
 		display: flex;
 		align-items: center;
@@ -59,14 +83,6 @@
 		font-weight: 800;
 
 		margin-bottom: 40px;
-	}
-	&__functions-title {
-		font-size: 18px;
-		font-weight: 800;
-
-		margin: auto 0 auto 0;
-
-		list-style-type: none;
 	}
 
 	&__button {
