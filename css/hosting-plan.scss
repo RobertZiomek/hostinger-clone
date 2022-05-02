@@ -177,9 +177,9 @@
 		margin-bottom: 45px;
 		border-width: 2px;
 		margin-top: -1px;
-		border-top: none;
 	}
 	&__button--color-pink {
 		background-color: $button-color;
+		border-top: none;
 	}
 }
