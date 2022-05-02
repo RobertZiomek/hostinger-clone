@@ -1,0 +1,52 @@
+@import "colors";
+
+.shared-hosting {
+	color: $primary-color;
+	padding-bottom: 35px;
+	padding: 0 15px 35px 15px;
+	&__title {
+		text-align: center;
+
+		margin-bottom: 10px;
+
+		font-size: 28px;
+		font-weight: 800;
+	}
+	&__paragraph {
+		text-align: center;
+
+		font-size: 14px;
+
+		margin-bottom: 15px;
+	}
+	&__block {
+		border: solid 1px $third-color;
+		border-radius: 6px;
+		margin-bottom: 30px;
+	}
+}
+.block {
+	padding: 15px 25px 10px 10px;
+
+	&__title {
+		font-size: 20px;
+		font-weight: 800;
+	}
+	&__title-item {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+
+		margin-bottom: 20px;
+	}
+	&__text {
+		font-size: 14px;
+		font-weight: 400;
+
+		color: $tetriary-color;
+		padding-bottom: 20px;
+	}
+	&__bold {
+		font-weight: 700;
+	}
+}
