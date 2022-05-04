@@ -2,8 +2,10 @@
 
 .shared-hosting {
 	color: $primary-color;
+
 	padding-bottom: 35px;
 	padding: 0 15px 35px 15px;
+
 	&__title {
 		text-align: center;
 
@@ -22,6 +24,7 @@
 	&__block {
 		border: solid 1px $third-color;
 		border-radius: 6px;
+
 		margin-bottom: 30px;
 	}
 }
