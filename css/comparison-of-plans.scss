@@ -1,0 +1,102 @@
+@import "colors";
+
+.table {
+	&__item {
+		display: flex;
+		align-items: center;
+
+		font-size: 14px;
+
+		height: 60px;
+	}
+	&__svg {
+		height: 24px;
+		width: auto;
+	}
+}
+.functions {
+	padding: 0 15px;
+
+	&__item {
+		display: flex;
+		align-items: center;
+
+		font-weight: 800;
+		font-size: 14px;
+
+		height: 60px;
+	}
+	&__description {
+		margin-left: 5px;
+
+		height: 20px;
+		width: auto;
+	}
+	&__title {
+		font-size: 18px;
+		font-weight: 800;
+
+		margin: auto 0 auto 0;
+
+		list-style-type: none;
+	}
+}
+.comparison-of-plans {
+	color: $primary-color;
+
+	&__item {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: repeat(6, 60px);
+		column-gap: 30px;
+
+		padding: 0 15px;
+
+		border: 1px solid $third-color;
+	}
+
+	&__type-item {
+		display: flex;
+		align-items: center;
+
+		font-size: 14px;
+
+		height: 60px;
+	}
+	&__price {
+		margin: auto 0 auto 0;
+	}
+	&__premium--display {
+		display: none;
+	}
+	&__business--display {
+		display: none;
+	}
+	&__type-svg {
+		height: 24px;
+		width: auto;
+	}
+	&__title {
+		text-align: center;
+
+		font-size: 26px;
+		font-weight: 800;
+
+		margin-bottom: 40px;
+	}
+
+	&__button {
+		color: $secondary-color;
+
+		border: 2px solid $secondary-color;
+		border-radius: 20px;
+
+		padding: 10px 0 10px 0;
+		margin: 21px 0;
+
+		width: 100%;
+
+		font-size: 16px;
+		font-weight: 700;
+	}
+}
