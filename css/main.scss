@@ -9,9 +9,13 @@
 @import "looking-for-something-else";
 @import "shared-hosting";
 @import "guarantee";
+@import "footer";
 
 
 body {
 	font-family: sans-serif;
 	color: $white;
+}
+li {
+	list-style-type: none;
 }
