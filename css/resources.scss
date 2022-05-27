@@ -37,6 +37,9 @@
 
 		padding: 15px 0 15px 30px;
 	}
+	&__text-title--color {
+		color: $secondary-color;
+	}
 }
 .list {
 	list-style-type: armenian !important;
