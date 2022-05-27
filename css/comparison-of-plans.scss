@@ -11,7 +11,11 @@
 	}
 	&__svg {
 		height: 24px;
-		width: auto;
+		width: 24px;
+	}
+	&__svg-item {
+		display: flex;
+		align-items: center;
 	}
 }
 .functions {

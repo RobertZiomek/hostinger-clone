@@ -1,11 +1,15 @@
 @import "colors";
 
 .hosting {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
 	color: $primary-color;
 
 	font-size: 15px;
-
 	padding: 35px 30px;
+
 	&__title {
 		text-align: center;
 
@@ -25,6 +29,8 @@
 		letter-spacing: 2px;
 
 		padding: 10px 15px;
+
+		max-width: 292px;
 	}
 	&__text-last {
 		display: flex;
@@ -165,6 +171,9 @@
 	}
 
 	&__column {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 		// box-shadow: 0 0 16px #00001a (0 0 0 / 10%);
 		border-radius: 6px;
 		padding: 35px 32px 40px 31px;
@@ -177,9 +186,17 @@
 		margin-bottom: 45px;
 		border-width: 2px;
 		margin-top: -1px;
+
+		max-width: 318px;
 	}
 	&__button--color-pink {
 		background-color: $button-color;
 		border-top: none;
+	}
+	&__see-all-adventages--pink {
+		color: $button-color;
+	}
+	&__button-discount--color-pink {
+		background-color: $button-color;
 	}
 }
