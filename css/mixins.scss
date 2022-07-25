@@ -59,6 +59,14 @@ $breakpoints: (
 	.resources__item-md {
 		display: none;
 	}
+	.looking-for-something-else {
+		&__container {
+			position: relative;
+		}
+		&__arrow {
+			display: none;
+		}
+	}
 }
 @include sm {
 	.support {
@@ -436,12 +444,47 @@ $breakpoints: (
 	}
 	.looking-for-something-else {
 		&__box {
-			width: 400px;
+			min-width: 400px;
+			width: 100%;
 		}
 		&__container {
 			display: flex;
+			justify-content: center;
 		}
-		// Nie wiem jak to zrobić. Chyba w js dopiero
+		&__arrow {
+			display: block;
+
+			z-index: 2;
+		}
+		// &__box--1,
+		// &__box--5 {
+		// }
+		&__box--3 {
+			transform: scale(1.11);
+		}
+
+		&__box--3 {
+			background-color: $white;
+			z-index: 1;
+		}
+		&__transparentBackground {
+			position: absolute;
+			height: 380px;
+			width: 150px;
+			background: linear-gradient(270deg, rgba(245, 246, 255, 0), #fff);
+			content: "  ";
+			display: block;
+			z-index: 1;
+		}
+		&__transparentBackground--left {
+			top: 6%;
+			left: 0;
+		}
+		&__transparentBackground--right {
+			top: 6%;
+			right: 0;
+			transform: rotate(-180deg);
+		}
 	}
 	.shared-hosting {
 		&__block {
@@ -613,6 +656,10 @@ $breakpoints: (
 		}
 		&__box--3 {
 			transform: scale(1.11);
+		}
+		&__box--1,
+		&__box--5 {
+			display: block;
 		}
 	}
 	.shared-hosting {
