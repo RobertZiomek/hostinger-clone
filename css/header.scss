@@ -6,8 +6,31 @@
 	&__nav {
 		display: flex;
 		justify-content: space-between;
+		align-items: center;
+
 		padding: 20px 15px;
 		margin-bottom: 5px;
+
+		max-width: 1920px;
+	}
+	&__nav--scroll {
+		color: black;
+		background-color: grey;
+		border-bottom: black 1px solid;
+
+		position: fixed;
+		width: 100%;
+
+		z-index: 100;
+
+		top: 0;
+	}
+	&__nav--scroll a {
+		color: black;
+	}
+	&__nav--scroll button {
+		border-color: black;
+		color: black;
 	}
 
 	&__logo {
