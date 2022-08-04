@@ -15,6 +15,10 @@
 
 		border: solid 1px $third-color;
 		border-radius: 6px;
+
+		transition: opacity 2s;
+
+		background-color: $white;
 	}
 	&__cloud-hosting {
 		font-size: 20px;
@@ -30,6 +34,24 @@
 	}
 	&__box-inside {
 		padding: 40px 30px 40px;
+	}
+	&__arrow {
+		font-size: 60px;
+		position: absolute;
+		cursor: pointer;
+
+		z-index: 11;
+	}
+	&__arrow--left {
+		top: 40%;
+		left: 15px;
+	}
+	&__arrow--right {
+		top: 40%;
+		right: 15px;
+	}
+	&__transparentBackground {
+		display: none;
 	}
 }
 .list {
