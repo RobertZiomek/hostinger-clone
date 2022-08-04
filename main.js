@@ -231,3 +231,5 @@ arrowsrolled.forEach((arrowrolled) => {
 window.addEventListener("scroll", scrollPage);
 leftDirection.addEventListener("click", left);
 rightDirection.addEventListener("click", right);
+
+// test
