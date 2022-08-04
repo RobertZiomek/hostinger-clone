@@ -17,6 +17,8 @@
 		border-radius: 6px;
 
 		transition: opacity 2s;
+
+		background-color: $white;
 	}
 	&__cloud-hosting {
 		font-size: 20px;
@@ -37,6 +39,8 @@
 		font-size: 60px;
 		position: absolute;
 		cursor: pointer;
+
+		z-index: 11;
 	}
 	&__arrow--left {
 		top: 40%;
